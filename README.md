@@ -1,5 +1,5 @@
 # Multi-Robot Lego Assembly Documentation
-This document should serve as a good starter guide with all the links and informatioo necessary to understand all the highlevel implmentation of what is going on in the background of the programs. And how to get set up with the system for it work smoothly.
+This document should serve as a good starter guide with all the links and information necessary to understand and get set up with the system for it work smoothly.
 
 ## Version, Env, Dependencies
     Python Version: 3.10 and above
@@ -42,7 +42,7 @@ Studio2.0-LegoCAD:    Use this to generate the LDR file for reading the instruct
        
   
 ## Current Setup
-![Setup image](Screenshot 2025-04-28 114408.png)
+![alt text](image.jpg)
 
 This current setup involves, using 2 arms the 102 for movement and 101 for computer vision
 Before you continue, make sure these are positioned exactly with in the boxes of the table as shown in the image with 102 facing towad you and 101 facing toward the workspace. \
@@ -70,8 +70,8 @@ simply running
 inside the Cam_setup directory should go through and run the program, provided the robot connection setup is accurate and positioned exactly where it is supposed to be. 
 
 ## How The Program in Final Implementation Runs
-Once thing to note,
-    everytime you call the movement function for any arm, the entire process stops until the arm has been moved to that position
+One thing to note,\
+    Everytime you call the movement function for any arm, the entire process stops until the arm has been moved to that position
 ### Main.py
 Runs through all the initializations, as in intialize the robots, and the motors, with generating and reading the instructions form the ldr file for the lego instrucitons and finally iniialize the SharedData whcih stores the state variables for the machines. After which it starts the multithreading for the movment arm 102, and camera arm 101.
 While initializing the sharedData, a call to the assemble.py file's set pick obj is done. Where the index is set to the class number of the next object to be picked read from the ldr file. 
