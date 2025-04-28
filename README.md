@@ -6,19 +6,24 @@ This document should serve as a good starter guide with all the links and inform
     Dependencies:   requirements.txt
 
 ## Understandin Directories
+```
 In this Github, you will find 2 directories:
         Final Implementation:
             This is the final iteration of our setup, which is in the Cam_setup directory.
-            **You will first have to create an python env with the requirement.txt file and run the main.py to execute. Assuming that you have the robots in their desired locations and connected to the iperlab router. This will be explained in detail**
+    
+            You will first have to create an python env with the requirement.txt file and run the main.py to execute.
+            Assuming that you have the robots in their desired locations and connected to the iperlab router. This will be explained in detail
+    
             The runs directory contains the checkpoints of our trained YOLO models from our first iteration.
-
+    
         Gemini integration: 
             This directory contains the files of the failed iteration with VLM.
             Of the files the gemini.py file is the VLM implementation, the other files involved are trying to read form the json file that comes out of the gemini.py file to then run the robots. 
             But this was scrapped as the API failed in getting accurate values. 
-
-    IF you want to try out any of our previous implementations here is a link to a google drive:
-        https://drive.google.com/drive/folders/1l53dQ7XxlGnE1Ck7UV8uKxWXS6jhsTwl?usp=sharing
+    
+        IF you want to try out any of our previous implementations here is a link to a google drive:
+            https://drive.google.com/drive/folders/1l53dQ7XxlGnE1Ck7UV8uKxWXS6jhsTwl?usp=sharing
+```
 
 
 ## Documentations for software Dependecies used
@@ -27,13 +32,13 @@ Niryo Studio:   to read the positional arguments and move the arm in real time\
 Niryo Robot Wrapper: \
     https://niryorobotics.github.io/pyniryo/v1.2.0-1/index.html   \
 YOLO:\
-    https://github.com/ultralytics/ultralytics
+    https://github.com/ultralytics/ultralytics  \
 Roboflow, labeling any new images you will take:  \
     https://app.roboflow.com/imgs   \
 Gemini-API:          \
     https://ai.google.dev/gemini-api/docs    \
 Studio2.0-LegoCAD:    Use this to generate the LDR file for reading the instructions\
-    https://www.bricklink.com/v3/studio/download.page   \
+    https://www.bricklink.com/v3/studio/download.page
        
   
 ## Current Setup
@@ -47,16 +52,21 @@ Also You will need to connect both the robots to the router available in the lab
 ## Running the program
 
 Once you have your python env setup, that is hopefully you have already run the:
+```
     pip install -r requirements.txt
-
+```
 you should have everything you need to run the final implementation, but this requirements.txt doesnt cover the gemini.py file.
 hence, if you are trying to run the gemini.py, you may run into some module not found errors, and 
-    pip install python-gemini-api 
+```
+    pip install python-gemini-api
+```
 might be necessary **along with creating an account with GeminiAPI in order to get the API key for the program.** 
 
 Now that you have downloaded sucessfully 
 simply running
-    python main.py 
+```
+    python main.py
+```
 inside the Cam_setup directory should go through and run the program, provided the robot connection setup is accurate and positioned exactly where it is supposed to be. 
 
 ## How The Program in Final Implementation Runs
