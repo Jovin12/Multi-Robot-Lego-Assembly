@@ -55,7 +55,7 @@ Be precise about overlap if applicable.
 Return only valid JSON.
 """
 
-client = genai.Client(api_key="AIzaSyAxIcBdjkvk5Nj1rh52gw1hGQ5AiT5jA6A")
+client = genai.Client(api_key="YOUR_GEMINI_API_KEY")
 
 response = client.models.generate_content(
     model="gemini-2.0-flash",
