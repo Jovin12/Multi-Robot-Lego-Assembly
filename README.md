@@ -23,17 +23,17 @@ In this Github, you will find 2 directories:
 
 ## Documentations for software Dependecies used
 Niryo Studio:   to read the positional arguments and move the arm in real time\
-    https://niryo.com/niryostudio/
+    https://niryo.com/niryostudio/    \
 Niryo Robot Wrapper: \
-    https://niryorobotics.github.io/pyniryo/v1.2.0-1/index.html
+    https://niryorobotics.github.io/pyniryo/v1.2.0-1/index.html   \
 YOLO:\
     https://github.com/ultralytics/ultralytics
 Roboflow, labeling any new images you will take:  \
-    https://app.roboflow.com/imgs
+    https://app.roboflow.com/imgs   \
 Gemini-API:          \
-    https://ai.google.dev/gemini-api/docs
+    https://ai.google.dev/gemini-api/docs    \
 Studio2.0-LegoCAD:    Use this to generate the LDR file for reading the instructions\
-    https://www.bricklink.com/v3/studio/download.page
+    https://www.bricklink.com/v3/studio/download.page   \
        
   
 ## Current Setup
