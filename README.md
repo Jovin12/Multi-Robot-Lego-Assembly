@@ -22,17 +22,17 @@ In this Github, you will find 2 directories:
 
 
 ## Documentations for software Dependecies used
-Niryo Studio:   to read the positional arguments and move the arm in real time
+Niryo Studio:   to read the positional arguments and move the arm in real time\
     https://niryo.com/niryostudio/
-Niryo Robot Wrapper: 
+Niryo Robot Wrapper: \
     https://niryorobotics.github.io/pyniryo/v1.2.0-1/index.html
-YOLO:
+YOLO:\
     https://github.com/ultralytics/ultralytics
-Roboflow, labeling any new images you will take:  
+Roboflow, labeling any new images you will take:  \
     https://app.roboflow.com/imgs
-Gemini-API:          
+Gemini-API:          \
     https://ai.google.dev/gemini-api/docs
-Studio2.0-LegoCAD:    Use this to generate the LDR file for reading the instructions
+Studio2.0-LegoCAD:    Use this to generate the LDR file for reading the instructions\
     https://www.bricklink.com/v3/studio/download.page
        
   
@@ -40,7 +40,7 @@ Studio2.0-LegoCAD:    Use this to generate the LDR file for reading the instruct
 ![Setup image](Screenshot 2025-04-28 114408.png)
 
 This current setup involves, using 2 arms the 102 for movement and 101 for computer vision
-Before you continue, make sure these are positioned exactly with in the boxes of the table as shown in the image with 102 facing towad you and 101 facing toward the workspace. \\
+Before you continue, make sure these are positioned exactly with in the boxes of the table as shown in the image with 102 facing towad you and 101 facing toward the workspace. \
 
 Also You will need to connect both the robots to the router available in the lab via ethernet, and you may also connect your computer via ether net to the router or simply connect to the iperlab router wifi to interact with the robots. 
 
