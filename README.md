@@ -42,7 +42,7 @@ Studio2.0-LegoCAD:    Use this to generate the LDR file for reading the instruct
        
   
 ## Current Setup
-![alt text](image.jpg)
+![find the image in img.jpg](img.jpg)
 
 This current setup involves, using 2 arms the 102 for movement and 101 for computer vision
 Before you continue, make sure these are positioned exactly with in the boxes of the table as shown in the image with 102 facing towad you and 101 facing toward the workspace. \
