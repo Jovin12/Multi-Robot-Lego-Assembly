@@ -176,7 +176,7 @@ def assembly(ned2,share):
     share.setIndex(ind + 1)
     # Update shared data with the next piece's information
     set_pick_obj(share)
-    # Set a grab state (the value 2 might represent a specific state)
+
     share.setGrab(2)
 
 
